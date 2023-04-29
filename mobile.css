@@ -1,0 +1,20 @@
+@media (max-width: 765px) {
+  .header-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
+  .header__paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}/*# sourceMappingURL=mobile.css.map */
