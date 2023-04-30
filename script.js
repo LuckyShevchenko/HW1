@@ -3,11 +3,11 @@ let a =10;
 alert(a);
 a = 20;
  //задания 2
-let const = 2007;
-alert(const);
+let year = 2007;
+const(year);
  //задания 3
-let const = "Brendan Eich"
-alert(const)
+let namejs = "Brendan Eich"
+const(namejs);
 //задания 4
 let b = 10;
 let c = 2;
@@ -21,7 +21,7 @@ alert(reult);
 //задания 6
 let d =9;
 let e =2;
-alert(d % e)
+alert(d % e);
 //задания 7
 let num = 1;
 num = num += 5;
