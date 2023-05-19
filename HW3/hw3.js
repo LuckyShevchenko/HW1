@@ -72,6 +72,5 @@ switch (monthNumber) {
         break;   
 
     default:console.log('такого месяца не сушествует')
-
         break;
 }
