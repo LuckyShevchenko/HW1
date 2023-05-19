@@ -4,10 +4,10 @@ alert(a);
 a = 20;
  //задания 2
 let year = 2007;
-const(year);
+alert(year);
  //задания 3
 let namejs = "Brendan Eich"
-const(namejs);
+alert(namejs);
 //задания 4
 let b = 10;
 let c = 2;
@@ -45,7 +45,7 @@ user["city of residence"] = "Saint-Peterburg";
 //задания 9.2
 user.age = 36;
 //задания 9.3
-delet user ["city of residence"];
+delete user ["city of residence"];
 //задания 9.4
 let info = prompt("Какую информацию хотите узнать о пользователе");
 alert(user[info]);
