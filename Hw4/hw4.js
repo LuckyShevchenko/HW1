@@ -1,4 +1,5 @@
 //1 задания
+
 for(let say = 0,say = 2,say++);
 console.log( say );
 //2 задания
