@@ -1,11 +1,11 @@
 //1 задания
-for(say = 0,say = 2,say++);
+for(let say = 0,say = 2,say++);
 console.log( say );
 //2 задания
-for(i = 1,i < 6,i++);
+for(let i = 1,i < 6,i++);
 console.log(i);
 //3 задания
-for(i = 7,i <= 22,i++);
+for(let i = 7,i <= 22,i++);
 console.log(i);
 //4 задания
 const obj{
@@ -23,7 +23,7 @@ do{
   n = n / 2;
   num = ++num;
 }while(n > 50);
-console.log(получилось число ${n} при количестве интераций ${--num});
+console.log(`получилось число ${n} при количестве интераций ${--num}`);
 //6 задания
 let friday = 5;
 for(let i = 1, i <= 31, i++){
