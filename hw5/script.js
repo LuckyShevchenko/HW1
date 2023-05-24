@@ -1,14 +1,14 @@
-
+//1задание
 const number11 = (a, b) => a > b ? b : a;
 
 console.log(number11(8, 4))
-
+//2задание
 const num13 = (a) => a % 2 === 0 ? 'число четное' : 'число не четное '
-
+//3 задание
 const squre = (a) => console.log(a * a)
 
 const squren = (a) => a * a
-
+//4 задание
 const user = () => {
     const answer = prompt('сколько вам лет ?')
     if (answer < 0) {
@@ -19,6 +19,7 @@ const user = () => {
         alert('Добро пожаловать!')
     }
 }
+//5 задание
 const chekNubers = (a, b) => {
     if (isNaN(a) || isNaN(b)) {
         return 'Одно или оба значения не являются числом'
@@ -26,6 +27,7 @@ const chekNubers = (a, b) => {
         return a * b
     }
 }
+//6 задание
 const fox = () => {
     const answer = +prompt('введите любое число')
     if (isNaN(answer)) {
@@ -35,13 +37,14 @@ const fox = () => {
         return `n в кубе равняется ${result}`
     }
 }
+//7 задание
 const circle = {
     getArea: (r) => Math.PI * r * r,
     getPerimeter: (r) => 2 * Math.PI * r
 }
 const circle1 = new circle;
 const circle2 = new circle;
-
+//8 задание
 const monthNumber = () => {
     const userAnswer = +prompt('Введите номер месяца');
     if (isNaN(answer)) {
