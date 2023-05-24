@@ -1,18 +1,21 @@
 //1 задания
 
-for(let say = 0,say = 2,say++);
-console.log( say );
+for(let say = 0, say = 2, say++);
+
+console.log(say);
 //2 задания
 
 for(let i = 1,i < 6,i++);
+
 console.log(i);
 //3 задания
 
-for(let i = 7,i <= 22,i++);
+for(let i = 7, i <= 22, i++);
+
 console.log(i);
 //4 задания
 
-const obj{
+const obj = {
   Коля:200,
   Вася:300,
   Петя:400 

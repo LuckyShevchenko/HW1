@@ -1,54 +1,75 @@
-//задания 1
-let a =10;
-alert(a);
-a = 20;
- //задания 2
-let year = 2007;
-alert(year);
- //задания 3
-let namejs = "Brendan Eich"
-alert(namejs);
-//задания 4
-let b = 10;
-let c = 2;
-alert(b + c);
-alert(b - c);
-alert(b * c);
-alert(b / c);
-//задания 5
-let result = 2**5;
-alert(reult);
-//задания 6
-let d =9;
-let e =2;
-alert(d % e);
-//задания 7
-let num = 1;
-num = num += 5;
-num = num -= 3;
-num = num *= 7;
-num = num /= 3;
-num = num += 1;
-num = num -= 1;
-alert(num);
-//задания 8
-age = prompt("Сколько вам лет?");
-alert(age);
-//задания 9
-const user = {
-    name:"Andrey",
-    age:35,
-    isAdmin:true,
+
+const number11 = (a, b) =>  a > b ? b : a;
+
+console.log(number11(8, 4))
+
+const num13 = (a) => a % 2 === 0 ? 'число четное' : 'число не четное '
+
+const squre = (a) => console.log(a * a)
+
+const squren = (a) => a * a
+
+const user = () => {
+    const answer = prompt('сколько вам лет ?')
+    if (answer < 0) {
+        alert('Вы ввели неправильное значение')
+    } else if(answer >= 0 && answer <= 12) {
+        alert('Привет, друг!')
+    } else{
+        alert('Добро пожаловать!')
+    }
 }
-//задания 9.1
-user["city of residence"] = "Saint-Peterburg";
-//задания 9.2
-user.age = 36;
-//задания 9.3
-delete user ["city of residence"];
-//задания 9.4
-let info = prompt("Какую информацию хотите узнать о пользователе");
-alert(user[info]);
-//задания 10
-let userName = prompt ("Как Вас зовут?")
-alert(`Привкт,${userName}`);
+const chekNubers = (a, b) => {
+    if (isNaN(a) || isNaN(b)) {
+        return 'Одно или оба значения не являются числом'   
+    }else{
+        return a * b
+    }
+}
+const fox = () => {
+    const answer = +prompt('введите любое число')
+    if (isNaN(answer)){
+        return 'Переданный параметр не является числом'
+    } else{
+        const result = answer ** 3
+        return `n в кубе равняется ${result}`
+    }
+}
+const circle = {
+    getArea:(r) => Math.PI * r * r,
+    getPerimeter:(r) => 2 * Math.PI * r 
+}
+const circle1 = new circle;
+const circle2 = new circle;
+
+const monthNumber = () => {
+    const userAnswer = +prompt('Введите номер месяца');
+    if (isNaN(answer)){
+        alert('Переданный параметр не является числом'); 
+    } else if(userAnswer >= 1 && userAnswer <= 12) {
+        switch (userAnswer) {
+            case 1:
+            case 2: 
+            case 12:
+                alert('зима');
+                break;
+            case 3:
+            case 4:
+            case 5:
+                alert('весна');
+                break;
+            case 6:
+            case 7:
+            case 8:
+                alert('лето');
+                break;
+            default:
+                alert('осень')
+                break;
+        }
+    } else{
+        alert('вывели дичь')
+    }
+   
+    
+}
