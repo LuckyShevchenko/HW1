@@ -11,7 +11,6 @@ for(let i = 1; i < 6; i++){
   console.log(i);
 }
 
-
 //3 задания
 
 for(let i = 7; i <= 22;  i++){
