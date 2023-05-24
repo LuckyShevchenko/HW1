@@ -71,5 +71,4 @@ const monthNumber = () => {
         alert('вывели дичь')
     }
 
-
 }
