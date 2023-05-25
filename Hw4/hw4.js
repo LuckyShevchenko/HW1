@@ -40,7 +40,7 @@ console.log(`получилось число ${n} при количестве и
 //6 задания
 
 let friday = 5;
-for(let i = 1, i <= 31, i++){
+for(let i = 1; i <= 31; i++){
   if (i === friday){
     console.log(`сегодня пятницаб${friday}-е`);
     friday = friday + 7;
