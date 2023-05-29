@@ -35,12 +35,15 @@ const fox = () => {
         return `n в кубе равняется ${result}`
     }
 }
-const circle = {
+const circle1 = {
     getArea: (r) => Math.PI * r * r,
     getPerimeter: (r) => 2 * Math.PI * r
 }
-const circle1 = new circle;
-const circle2 = new circle;
+const circle2 = {
+    getArea: (r) => Math.PI * r * r,
+    getPerimeter: (r) => 2 * Math.PI * r
+}
+
 
 const monthNumber = () => {
     const userAnswer = +prompt('Введите номер месяца');

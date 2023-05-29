@@ -62,6 +62,10 @@ body {
   height: 48.6px;
 }
 
+.header__bottom:hover {
+  background: #fc1504;
+}
+
 .main-container {
   height: 740px;
   padding-top: 128px;
@@ -150,6 +154,10 @@ body {
   height: 48.6px;
 }
 
+.gamer__bottom:hover {
+  background: #fc1504;
+}
+
 .gamepad {
   display: flex;
   justify-content: space-between;
@@ -165,6 +173,19 @@ body {
 .gamespad {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gamers__bottom {
+  background: #9C0332;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  width: 240.44px;
+  height: 48.6px;
+}
+
+.gamers__bottom:hover {
+  background: #fc1504;
 }
 
 .mystery {
@@ -174,6 +195,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+}
+
+.mystery__bottom {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+}
+
+.mystery__bottom:hover {
+  background: #fc1504;
 }
 
 .footer {

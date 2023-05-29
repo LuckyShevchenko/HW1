@@ -57,7 +57,9 @@ body {
     border-radius: 30px;
     width: 234.06px;
     height: 48.6px;
-    
+}
+.header__bottom:hover{
+    background:#fc1504
 }
 .main-container{
     height: 740px;
@@ -135,7 +137,9 @@ body {
     border-radius: 30px;
     width: 234.06px;
     height: 48.6px;
-    
+}
+.gamer__bottom:hover{
+    background:#fc1504;
 }
 .gamepad{
     display: flex;
@@ -151,7 +155,17 @@ body {
 .gamespad{
     display: flex;
     justify-content: space-between;
-   // flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.gamers__bottom{
+    background: #9C0332;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    width: 240.44px;
+    height: 48.6px; 
+}
+.gamers__bottom:hover {
+   background:#fc1504;
 }
 .mystery{
     height: 740px;
@@ -159,8 +173,16 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
-    
+    align-content: space-around; 
+}
+.mystery__bottom{
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234.06px;
+    height: 48.6px;
+}
+.mystery__bottom:hover{
+    background:#fc1504;
 }
 .footer{
     background:#000915;
