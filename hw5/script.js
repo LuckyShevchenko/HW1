@@ -1,55 +1,58 @@
-
-const number11 = (a, b) =>  a > b ? b : a;
+//1задание
+const number11 = (a, b) => a > b ? b : a;
 
 console.log(number11(8, 4))
-
+//2задание
 const num13 = (a) => a % 2 === 0 ? 'число четное' : 'число не четное '
-
+//3 задание
 const squre = (a) => console.log(a * a)
 
 const squren = (a) => a * a
-
+//4 задание
 const user = () => {
     const answer = prompt('сколько вам лет ?')
     if (answer < 0) {
         alert('Вы ввели неправильное значение')
-    } else if(answer >= 0 && answer <= 12) {
+    } else if (answer >= 0 && answer <= 12) {
         alert('Привет, друг!')
-    } else{
+    } else {
         alert('Добро пожаловать!')
     }
 }
+//5 задание
 const chekNubers = (a, b) => {
     if (isNaN(a) || isNaN(b)) {
-        return 'Одно или оба значения не являются числом'   
-    }else{
+        return 'Одно или оба значения не являются числом'
+    } else {
         return a * b
     }
 }
+//6 задание
 const fox = () => {
     const answer = +prompt('введите любое число')
-    if (isNaN(answer)){
+    if (isNaN(answer)) {
         return 'Переданный параметр не является числом'
-    } else{
+    } else {
         const result = answer ** 3
         return `n в кубе равняется ${result}`
     }
 }
+//7 задание
 const circle = {
-    getArea:(r) => Math.PI * r * r,
-    getPerimeter:(r) => 2 * Math.PI * r 
+    getArea: (r) => Math.PI * r * r,
+    getPerimeter: (r) => 2 * Math.PI * r
 }
 const circle1 = new circle;
 const circle2 = new circle;
-
+//8 задание
 const monthNumber = () => {
     const userAnswer = +prompt('Введите номер месяца');
-    if (isNaN(answer)){
-        alert('Переданный параметр не является числом'); 
-    } else if(userAnswer >= 1 && userAnswer <= 12) {
+    if (isNaN(answer)) {
+        alert('Переданный параметр не является числом');
+    } else if (userAnswer >= 1 && userAnswer <= 12) {
         switch (userAnswer) {
             case 1:
-            case 2: 
+            case 2:
             case 12:
                 alert('зима');
                 break;
@@ -67,9 +70,8 @@ const monthNumber = () => {
                 alert('осень')
                 break;
         }
-    } else{
+    } else {
         alert('вывели дичь')
     }
-   
-    
+
 }
