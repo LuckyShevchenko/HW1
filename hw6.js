@@ -46,6 +46,7 @@ if(test.includes(run)){
 } else{
     console.log('числа нет в массиве')
 }
+
 const str = 'abcdef';
 const strResult = str.split('').reverse().join('');
 console.log(strResult);
@@ -67,7 +68,44 @@ for(let i = 0; i < star.length; i++){
 }
 
 const nubs = [1, 4, 9];
-const roots = numbers.map(Math.sqrt);
+const roots = numbers.map((item) => Math.pow(item, 2));
+
+function sum(){
+    const numbs = [];
+    for(let i = 0; i < 10; i++){
+      const result = Math.floor(Math.random() * 10);
+      numbs.push(result); 
+    }
+    console.log(numbs);
+    for(let i = 0; i < numbs.length -1 ; i++){
+      console.log(numbs[i] + numbs[i + 1]);
+    }
+  }
+  sum()
+
+function getLengthWords(arr) {
+  return arr.map((item) => item.length);
+}
+console.log(getLengthWords);
 
 
 
+
+
+
+
+
+function numbs(){
+    const arr = [];
+    const sun = [];
+    for(let i = 0; i < 10; i++){
+      const result = Math.floor(Math.random() * 10); 
+      arr.push(result);
+      if(result %2 === 0){
+        sun.push(result);
+      }
+    }
+    console.log(arr);
+    console.log(sun);
+  }
+  numbs()
