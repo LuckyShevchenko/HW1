@@ -89,12 +89,6 @@ function getLengthWords(arr) {
 console.log(getLengthWords);
 
 
-
-
-
-
-
-
 function numbs(){
     const arr = [];
     const sun = [];
