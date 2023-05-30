@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="header-container">
+    <div class="header-container center">
         <div class="header__top">
             <h1 class="header__tittle">Добро пожаловать<br> на мой сайт !</h1>
             <p class="header__paragraf">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <span
@@ -23,11 +23,11 @@
             </form>
         </div>
     </div>
-    <main class="main-container">
+    <main class="main-container center">
         <div class="main__box">
             <div class="game">
                 <img class="main__game-box" src="img/game1.jpg" alt="game">
-                <a class="main__text" href="#">Игра 1</a>
+                <a class="main__text" onclick='monthNumber()'>Игра 1</a>
             </div>
             <div class="game">
                 <img class="main__game-box" src="img/game2.jpg" alt="game">
@@ -39,7 +39,53 @@
             </div>
         </div>
     </main>
-    <script src="script.js"></script>
-</body>
+     <main class="gamer center ">
+        <div class="gamepad">
+            <div class="gamer-text">
+                <h2 class="gamer__header">Времена года!</h2>
+            <p class="gamer__paragraf">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы<br> узнаете к какому времени года он относится</p>
+            <form action="#">
+                <button class="gamer__bottom">Играть!</button>
+            </form>
+            </div>
+            <div class="gamer-img">
+                <img class="gamer-game" src="img/girl&boy.svg" alt="gamer">
+            </div>
+        </div>
 
+     </main>
+     <main class="games center ">
+        <div class="gamespad">
+            <div class="gamer-img">
+                <img class="gamer-game" src="img/gameboy.svg" alt="gamer">
+            </div>
+            <div class="gamer-text">
+                <h2 class="gamer__header">Запомни слова</h2>
+            <p class="gamer__paragraf">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <form action="#">
+                <button class="gamers__bottom">Играть!</button>
+            </form>
+            </div>
+        </div>
+
+     </main>
+     <main class="mystery center ">
+        <div class="mystery-box">
+            <div class="gamer-text">
+                <h2 class="gamer__header">Игра в загадки</h2>
+            <p class="gamer__paragraf">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <form action="#">
+                <button class="mystery__bottom">Играть!</button>
+            </form>
+            </div>
+        </div>
+     </main>
+     <footer class="footer center">
+        <div class="footer-info">
+            <p class="footer-text" >Все права защищены</p>
+        </div>
+
+     </footer>
+   <script src="script.js"></script> 
+</body>
 </html>
