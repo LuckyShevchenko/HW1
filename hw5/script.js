@@ -35,7 +35,7 @@ const fox = () => {
         return `n в кубе равняется ${result}`
     }
 }
-const circle1 = {
+/*const circle1 = {
     getArea: (r) => Math.PI * r * r,
     getPerimeter: (r) => 2 * Math.PI * r
 }
@@ -43,7 +43,19 @@ const circle2 = {
     getArea: (r) => Math.PI * r * r,
     getPerimeter: (r) => 2 * Math.PI * r
 }
+*/
 
+
+
+const circle1 = {
+    radius: 10,  
+    getArea: function() {  
+        return Math.PI * this.radius * this.radius; 
+    },
+    getPerimeter: function() {
+        return 2 * Math.PI * this.radius; 
+    }
+};
 
 const monthNumber = () => {
     const userAnswer = +prompt('Введите номер месяца');
