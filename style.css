@@ -60,6 +60,7 @@ body {
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
+  color: #ffffff;
 }
 
 .header__bottom:hover {
@@ -89,7 +90,7 @@ body {
 }
 
 .main__game-box {
-  width: 378px;
+  width: 100%;
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
@@ -152,36 +153,49 @@ body {
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
+  color: #ffffff;
 }
 
 .gamer__bottom:hover {
   background: #fc1504;
 }
 
-.gamepad {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+/*.gamepad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+}*/
 .games {
   background: #000915;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.gamespad {
+.reverse {
+  flex-direction: row-reverse;
+  padding-top: 6px;
+  padding-bottom: 6px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+  align-items: center;
 }
 
+.gamer-text {
+  margin-bottom: 32px;
+}
+
+/*.gamer-game{
+    width: 100%;
+}*/
 .gamers__bottom {
   background: #9C0332;
   border: 1px solid #FFFFFF;
   border-radius: 30px;
   width: 240.44px;
   height: 48.6px;
+  color: #ffffff;
 }
 
 .gamers__bottom:hover {
@@ -202,6 +216,7 @@ body {
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
+  color: #ffffff;
 }
 
 .mystery__bottom:hover {
@@ -245,6 +260,29 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
+    color: #FFFFFF;
+  }
+  .header__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .gamer__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .gamer__paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
     color: #FFFFFF;
   }
 }/*# sourceMappingURL=style.css.map */

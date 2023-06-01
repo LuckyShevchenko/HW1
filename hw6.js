@@ -55,8 +55,8 @@ const myArray = [[1, 2 , 3],[4, 5, 6]];
 // const myResult = [];
 // for(let i = 0; i < myArray.length; i++){
 // for (let j =0; j < myArray[i].length; j++){
+    // }
 //     myResult.push(myArray[i][j]);
-// }
 // }
 // console.log(myResult);
 console.log([].concat(myArray[0],myArray[1]))
