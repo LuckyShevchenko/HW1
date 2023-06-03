@@ -66,3 +66,4 @@ function sayHi (name) {
 delayForSecond(function() {
     sayHi('Глеб')
   });
+     
