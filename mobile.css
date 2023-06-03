@@ -2,6 +2,7 @@
   .header-container {
     padding-left: 16px;
     padding-right: 16px;
+    background-image: url(img/backgrooundmobile.jpg);
   }
   .header__tittle {
     font-style: normal;

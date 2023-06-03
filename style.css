@@ -9,8 +9,15 @@ body {
   color: white;
 }
 
+.center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 .header-container {
-  width: 1440px;
   height: 1024px;
   background-image: url(img/backimg.jpg);
   background-repeat: no-repeat;
@@ -53,9 +60,15 @@ body {
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
+  color: #ffffff;
+}
+
+.header__bottom:hover {
+  background: #fc1504;
 }
 
 .main-container {
+  height: 740px;
   padding-top: 128px;
   padding-bottom: 128px;
   background: #000915;
@@ -63,8 +76,10 @@ body {
 
 .main__box {
   display: flex;
-  flex-wrap: wrap;
   gap: 32px;
+  flex-wrap: wrap;
+  /* padding-left: 120px;
+   padding-right: 120px;*/
 }
 
 .game {
@@ -75,7 +90,7 @@ body {
 }
 
 .main__game-box {
-  width: 378px;
+  width: 100%;
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
@@ -94,6 +109,180 @@ body {
   color: #FFFFFF;
 }
 
+.main__text:hover {
+  color: #fc1504;
+}
+
 .main__game-box {
   border-radius: 16px;
+}
+
+.gamer {
+  height: 740px;
+  background: #000915;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gamepad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gamer__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.gamer__paragraf {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.gamer__bottom {
+  background: #9C0332;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  color: #ffffff;
+}
+
+.gamer__bottom:hover {
+  background: #fc1504;
+}
+
+/*.gamepad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}*/
+.games {
+  background: #000915;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+  align-items: center;
+}
+
+.gamer-text {
+  margin-bottom: 32px;
+}
+
+/*.gamer-game{
+    width: 100%;
+}*/
+.gamers__bottom {
+  background: #9C0332;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  width: 240.44px;
+  height: 48.6px;
+  color: #ffffff;
+}
+
+.gamers__bottom:hover {
+  background: #fc1504;
+}
+
+.mystery {
+  height: 740px;
+  background-image: url(img/mystery.jpg);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.mystery__bottom {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  color: #ffffff;
+}
+
+.mystery__bottom:hover {
+  background: #fc1504;
+}
+
+.footer {
+  background: #000915;
+  padding-top: 32.5px;
+  padding-bottom: 32.5px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 765px) {
+  .header-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url(img/backgrooundmobile.jpg);
+  }
+  .header__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
+  .header__paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .header__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .gamer__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .gamer__paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }/*# sourceMappingURL=style.css.map */
